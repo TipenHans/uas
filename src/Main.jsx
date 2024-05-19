@@ -3,7 +3,7 @@ import Welcomepage from "./WelcomePage";
 import anggota from "./AboutUs";
 import "./styles.css";
 import AboutPage from "./AboutPage";
-import MainPageGIF from "./foto/MainPageGIF.gif"
+import MainPageGIF from "./foto/MainPageGIF.gif";
 import wondindo from "./foto/wondindo.png";
 import youtubelogo from "./foto/youtubelogo.png";
 import facebooklogo from "./foto/facebooklogo.png";
