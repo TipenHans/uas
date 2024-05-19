@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { API_KEY } from './APIKey.js';
 
 function GooglePlaces() {
   const [selectedPlace, setSelectedPlace] = useState(null);
@@ -9,7 +8,7 @@ function GooglePlaces() {
     const loadScript = () => {
       const script = document.createElement("script");
       script.src =
-        "https://maps.googleapis.com/maps/api/js?key=${API_KEY}&libraries=places";
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyAgphDeswrhslHC1PoAcOpwBJqdCyO242M&libraries=places";
       script.async = true;
       script.defer = true;
       script.onload = initAutocomplete;
